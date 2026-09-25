@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Is It Safe? | CyberSchool</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                🔐 CyberSchool
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="learn.html">Learn</a></li>
+                <li><a href="safeornot.html">Is It Safe?</a></li>
+                <li><a href="challenge.html">Challenge</a></li>
+                <li><a href="help.html">Get Help</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Quiz Section -->
+    <main>
+
+        <section class="quiz-page">
+
+            <div class="quiz-header">
+
+                <p class="welcome">
+                    CYBERSCHOOL SAFETY CHECK
+                </p>
+
+                <h1>
+                    🔎 Is It <span>Safe or Not?</span>
+                </h1>
+
+                <p>
+                    Read the situation carefully and choose
+                    the safest action.
+                </p>
+
+            </div>
+
+
+            <!-- Progress -->
+            <div class="quiz-progress">
+
+                <div class="progress-info">
+                    <span id="question-number">
+                        Question 1 of 5
+                    </span>
+
+                    <span id="score">
+                        Score: 0
+                    </span>
+                </div>
+
+                <div class="progress-bar">
+                    <div id="progress-fill"></div>
+                </div>
+
+            </div>
+
+
+            <!-- Question Card -->
+            <div class="quiz-card">
+
+                <div class="question-icon">
+                    🔐
+                </div>
+
+                <h2 id="question">
+                    Loading question...
+                </h2>
+
+
+                <div id="answers" class="answers">
+                    <!-- JavaScript will create the answers here -->
+                </div>
+
+
+                <!-- Feedback -->
+                <div id="feedback" class="feedback hidden">
+                </div>
+
+
+                <!-- Next Button -->
+                <button
+                    id="next-button"
+                    class="quiz-button hidden">
+                    Next Question →
+                </button>
+
+            </div>
+
+
+            <!-- Result -->
+            <div id="result" class="quiz-result hidden">
+
+                <div class="result-icon">
+                    🏆
+                </div>
+
+                <h2>Your CyberSafety Result</h2>
+
+                <p id="final-score"></p>
+
+                <p id="cyber-level"></p>
+
+                <button
+                    id="restart-button"
+                    class="quiz-button">
+                    🔄 Try Again
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 CyberSchool | Learn. Protect Yourself. Help Others.
+        </p>
+
+       
+
+    </footer>
+
+
+    <script src="js/quiz.js"></script>
+
+</body>
+
+</html>
